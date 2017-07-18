@@ -1,0 +1,53 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.conversaciones,
+.chat{
+	border: 1px solid grey;
+	min-height: 100vh;
+}
+.opciones-conv, 
+.input-search{
+	border-bottom: 1px solid grey;
+	height: 10vh;
+}
+.opciones-conv{
+	background-color: lightgrey;
+}
+.cuerpo-completo button.btn.btn-default{
+	margin-top: 20px;
+}
+#search{
+	margin-top: 20px;
+	width: 100%;
+}
+.chat-abierto{
+	background-color: lightgrey;
+	height: 10vh;
+	border-bottom: 1px solid grey;
+}
+img.img-responsive{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+.usuario-conv h5{
+	margin-top: 20px;
+	font-size: 14px;
+}
+.caja-texto{
+	height: 80vh;
+	background-image: url(Desafio/image/chat-panel-bg.png)
+}
+.fila-input{
+	border-top: 1px solid grey;
+	height: 10vh;
+}
+.conv{
+	border-bottom: 1px solid grey;
+	height: 10vh;
+}
